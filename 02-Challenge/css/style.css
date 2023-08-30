@@ -3,104 +3,101 @@
     padding: 0;
     margin: 0;
 }
-
+/* the body contains a background of the OCP pattern to represent my being in the US Army */
 body {
-    background-color: #d9dcd6;
+    
+    background-image: url("/02-Challenge/Assets/ArmyOCP.png");
+ 
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
-
-p {
-    font-size: 20px;
-}
-
 /* content for headers */
 .name {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: rgba(245, 222, 179, 0.388);
+    color: black;
 }
-
+/* the font size for all h1 headers */
 .name h1 {
     display: inline-block;
     font-size: 75px;
 }
-
+/* font size and style for the class name and unordered list */
 .name nav {
     padding-top: 70px;
     margin-right: 10px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-}
+ }
 
 .name nav ul li {
     display: inline-block;
     margin-left: 50px;
 }
-
+/* the picutre and size of the first picutre in my portfolio */
 .apache {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     background-image: url("/02-Challenge/Assets/IMG_20130511_094937_444.jpg");
-    background-size: cover;
+    background-size:cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
-/* immage positions */
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* the picutre and size of the third picutre in my portfolio */
+.history {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/02-Challenge/Assets/IMG_20130816_141703_679.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+/* the picutre and size of the second picutre in my portfolio */
+.projects {
+    height: 400px;
+    width: 25%;
+    margin-bottom: 25px;
+    background-image: url("/02-Challenge/Assets/IMG_20130607_185240_289.jpg");
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* the picutre and size of the fourth picutre in my portfolio */
+.contact {
+    height: 400px;
+    width: 25%;
+    margin-bottom: 25px;
+    background-image: url("/02-Challenge/Assets/20220812_102345.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
+/* the size and background color of the block in the about me section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    background-color: rgba(245, 222, 179, 0.388);
+    font-size: 30px;
 }
 .content-search {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    color: black;
+}
+
+.content-search p {
+    font-size: 35px;
 }
 
 .content-search img {
@@ -111,14 +108,53 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* footer notes and customization */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-.footer h2 {
-    font-size: 20px;
-}
+/* changes the size of the screen at 992 px */
+@media screen and (max-width: 992px) {
+    .content-search, .content-search p,
+    .content-search h2, .apache,
+    .history, .projects
+        {
+          font-size: 90%;
+          background-size: 100% 50%;
+         }
+        }
+/* changes the size of the screen at 768 px */
+@media screen and (max-width: 768px) {
+    .content-search, .content-search p,
+    .content-search h2, .apache,
+    .history, .projects
+        {
+          font-size: 90%;
+          background-size: 100% 50%;
+         }
+         .name h1{ font-size: 300%;  }
+         .contact{background-size: 500% 75%}
+        }
+        /* changes the size of the screen at 500 px */
+@media screen and (max-width: 500px) {
+    .content-search, .content-search p,
+    .content-search h2, .apache,
+    .history, .projects
+    {
+      font-size: 80%;
+      background-size: 100% 40%;
+      }
+    }
+   /* changes the size of the header tabs at 500 px */
+@media screen and (max-width: 500px) {
+  nav li{
+/* text-align: right; */
+font-size: 70%;}
+
+} */
+      
+ 
+
+  
+
+
+   
+    
+
+   
