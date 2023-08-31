@@ -6,7 +6,7 @@
 /* the body contains a background of the OCP pattern to represent my being in the US Army */
 body {
     
-    background-image: url("/Assets/ArmyOCP.png");
+    background-image: url("../Assets/ArmyOCP.png");
  
 }
 
@@ -44,7 +44,7 @@ a {
     height: 800px;
     width: 100%;
     /* margin-bottom: 25px; */
-    background-image: url("/Assets/IMG_20130511_094937_444.jpg");
+    background-image: url("../Assets/IMG_20130511_094937_444.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ a {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/Assets/IMG_20130816_141703_679.jpg");
+    background-image: url("../Assets/IMG_20130816_141703_679.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ a {
     height: 400px;
     width: 25%;
     margin-bottom: 25px;
-    background-image: url("/Assets/IMG_20130607_185240_289.jpg");
+    background-image: url("../Assets/IMG_20130607_185240_289.jpg");
     background-size:cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ a {
     height: 400px;
     width: 25%;
     margin-bottom: 25px;
-    background-image: url("/Assets/20220812_102345.jpg");
+    background-image: url("../Assets/20220812_102345.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat; 
